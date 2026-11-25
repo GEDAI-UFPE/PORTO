@@ -1,0 +1,19 @@
+Package: PORTO
+Type: Package
+Title: Preference and Ordinal Threshold Orientations
+Version: 0.1.0
+Authors@R: person(given = "Thyago", family = "Nepomuceno",
+    email = "nepomuceno@de.ufpe.be", role = c("aut", "cre"),
+    comment = "Department of Statistics, Federal University of Pernambuco")
+Maintainer: Thyago Nepomuceno <nepomuceno@de.ufpe.be>
+Description: Implements ordinal weight restrictions in data envelopment
+    analysis and Benefit-of-the-Doubt composite indicators. Provides radial
+    and directional multiplier formulations, weak, moderate and strict
+    preference specifications, rank-based surrogate weights and pooled
+    positional surrogate allocation for tied priorities. The directional
+    formulations jointly account for desirable and undesirable indicators.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: lpSolve
+NeedsCompilation: no
